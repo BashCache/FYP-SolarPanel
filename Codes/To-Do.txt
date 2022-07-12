@@ -1,0 +1,4 @@
+1) Try Basic CNN Model (done)
+2) Should you convert violet bg images to black and white (done)
+3) Check bg removal on this (done)
+4) Which to use? Streamlit or flask
