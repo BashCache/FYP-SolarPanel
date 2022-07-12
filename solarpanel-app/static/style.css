@@ -1,0 +1,105 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bgimg{
+    background-image: url(homeimg.jpeg);
+    filter: blur(5px);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgimg2{
+    background-image: url(homeimg.jpeg);
+    opacity: 1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    color:black;
+    text-decoration-color: black;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 30%;
+    bottom: 5%;
+    width: 60%;
+    padding: 20px;
+    font-size: 250%;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.text2 {
+    color:black;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 40%;
+    padding: 20px;
+    font-size: 150%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(233, 222, 222, 0.603);
+}
+
+.navi {
+    align-items: center;
+    display: initial;
+    justify-content: center;
+    border: 1px;
+    padding: 20%;
+    margin: auto;
+    font-size: 40px;
+}
+
+.navi2 {
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    padding: 20%;
+    margin: auto;
+    font-size: 40px;
+}
+
+.navi a{
+    float:left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navi a.hover{
+    background-color: rgb(102, 55, 124);
+    color: black;
+}
+
+.navi a.active{
+    color: black;
+}
+
+.btn{
+    background-color: gray;
+    color: black;
+    font-size: 25px;
+}
+
+input{
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+}
